@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto;
 }
 
 ul {
@@ -15,19 +16,54 @@ ul {
 
 .header {
     background-color: #1F2937;
-    color: white;
+    padding: 16px 128px 64px;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
-    padding: 16px 64px;
+    margin-bottom: 64px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8
 }
-.header-links {
-    display: flex;
+
+.header-links, .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-links {
+    display: flex;
     gap: 24px;
+}
+
+.hero-container {
+    display: flex;
+    gap: 24px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border:none;
+}
+
+.hero-left, .hero-right {
+    flex-basis: 50%;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
 }
