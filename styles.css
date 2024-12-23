@@ -15,8 +15,11 @@ ul {
 }
 
 .header {
-    background-color: #1F2937;
     padding: 16px 128px 64px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
 }
 
 .nav {
@@ -167,4 +170,11 @@ ul {
     border: 2px solid white;
     color: #F9FAF8;
     border-radius: 6px;
+}
+
+.footer {
+    color: #F9FAF8;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
 }
